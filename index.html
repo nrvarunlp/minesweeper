@@ -9,6 +9,41 @@
 </head>
 
 <body>
+    <div class="wrapper">
+        <h2>Minesweeper Game</h2>
+
+        <div class="form-w">
+            <label for="rows">
+                Rows
+                <select id="rows" name="rows">
+                    <option>10</option>
+                    <option>5</option>
+                    <option>6</option>
+                    <option>7</option>
+                </select>
+            </label>
+
+            <label for="cols">
+                Columns
+                <select name="cols">
+                    <option>10</option>
+                    <option>5</option>
+                    <option>6</option>
+                    <option>7</option>
+                </select>
+            </label>
+        </div>
+        <div class="mines-game-w">
+            <div class="mines-container" id="minesweeper"></div>
+            <div class="game-over">
+                <div class="game-over-content">
+                    <p>Game Over 😐</p>
+                    <button class="reset-btn">Reset</button>
+                </div>
+            </div>
+        </div>
+
+    </div>
     <script src="./js/index.js"></script>
 </body>
 
